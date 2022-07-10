@@ -11,4 +11,14 @@ export default defineNuxtConfig({
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     "@nuxtjs/tailwindcss",
   ],
+  build: {
+    postcss: {
+      postcssOptions: {
+        plugins: {
+          "postcss-nested": {},
+          "postcss-hexrgba": {},
+        },
+      },
+    },
+  },
 });

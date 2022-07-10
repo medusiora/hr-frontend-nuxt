@@ -22,6 +22,6 @@ useHead({
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 @import url('https://rsms.me/inter/inter.css');
 </style>
