@@ -7,4 +7,8 @@ export default defineNuxtConfig({
       titleTemplate: "%s - HR Frontend",
     },
   },
+  buildModules: [
+    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+    "@nuxtjs/tailwindcss",
+  ],
 });
